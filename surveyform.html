@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cakesbytemmy Survey Form Project</title>
+    <link rel="stylesheet" href="surveyform.css">
+</head>
+<header>
+    <h1 id="title">cakes<span>by</span>temmy Survey Form</h1>
+</header>
+
+<body>
+
+    <p id="description"><b>Please fill the form below in order to serve you better<b></p>
+
+    <form id="survey-form">
+
+        <div class="input-headings">
+
+
+            <label for="name" id="name-label">Name</label>
+            <input id="name" type="text" name="name" placeholder="John Fred" class="form-input" required></input>
+            <br>
+
+            <label for="email" id="email-label">Email</label>
+            <input id="email" type="email" name="email" placeholder="cakesbytemmy@example.com" class="form-input"
+                required></input>
+            <br>
+
+            <label for="number" id="number-label">Age</label>
+            <input id="number" type="number" name="number" placeholder="15" min="15" max="90" class="form-input"
+                required></input>
+            <br>
+
+            <label for="dropdown" id="confectionery">Select product bought</label>
+            <select id="dropdown" class="form-input">
+                <option value="Red_Velvet">Red Velvet</option>
+                <option value="Chocolate_Cake">Chocolate cake</option>
+                <option value="Vanilla_Cake">Vanilla cake</option>
+                <option value="Carrot_cake">Carrot cake</option>
+                <option value="Cookies_and_Cream">Cookies and Cream</option>
+                <option value="Brownie">Brownie</option>
+                <option value="Small_Chops">Small Chops</option>
+                <option value="Meat_Pie">Meat Pie</option>
+                <option value="Puff_Puff">Puff Puff</option>
+                <option value="Egg_Roll">Egg Roll</option>
+                <option value="Chinchin">Chinchin</option>
+            </select>
+            <br>
+            <br>
+
+            <label for="recommendation" id="recommendation"><b>Would you recommend cakesbytemmy to a friend?<b></label>
+            <br>
+
+            <input id="recommendation" type="radio" id="Definitely" name="recommendation" value="Definitely">
+            <label for="recommendation">Definitely</label>
+            <br>
+            <input id="recommendation" type="radio" id="Maybe" name="recommendation" value="Maybe">
+            <label for="recommendation">Maybe</label>
+            <br>
+            <input id="recommendation" type="radio" id="Not_sure" name="recommendation" value="Not_sure">
+            <label for="recommendation">Not sure</label>
+            <br>
+            <br>
+
+            <label for="improvement"><b>What would you like to see improved? (Check all that apply)</label>
+            <br>
+            <input id="checkbox" type="checkbox" name="improvement" value="Red_Velvet">
+            <label for="checkbox">Red velvet</label>
+            <br>
+            <input id="checkbox" type="checkbox" name="improvement" value="Chocolate_Cake">
+            <label for="checkbox">Chocolate Cake</label>
+            <br>
+            <input id="checkbox" type="checkbox" name="improvement" value="Vanilla_Cake">
+            <label for="checkbox">Vanilla Cake</label>
+            <br>
+            <input id="checkbox" type="checkbox" name="improvement" value="Carrot_Cake">
+            <label for="checkbox">Carrot Cake</label>
+            <br>
+            <input id="checkbox" type="checkbox" name="improvement" value="Cookies_and_Cream">
+            <label for="checkbox">Cookies and Cream</label>
+            <br>
+            <input id="checkbox" type="checkbox" name="improvement" value="Brownie">
+            <label for="checkbox">Brownie</label>
+            <br>
+            <input id="checkbox" type="checkbox" name="improvement" value="Small_Chops">
+            <label for="checkbox">Small Chops</label>
+            <br>
+            <input id="checkbox" type="checkbox" name="improvement" value="Meat_Pie">
+            <label for="checkbox">Meat Pie</label>
+            <br>
+            <input id="checkbox" type="checkbox" name="improvement" value="Puff_Puff">
+            <label for="checkbox">Puff Puff</label>
+            <br>
+            <input id="checkbox" type="checkbox" name="improvement" value="Egg_Roll">
+            <label for="checkbox">Egg Roll</label>
+            <br>
+            <input id="checkbox" type="checkbox" name="improvement" value="Chinchin">
+            <label for="checkbox">Chinchin</label>
+            <br>
+            <br>
+
+            <label id="textarea">Additional Comments</label>
+            <br>
+            <textarea id="textarea" name="instructions" rows="5" cols="40">
+
+        </textarea>
+            <br>
+
+
+            <input id="submit" type="submit" value="Submit Survey" class="submit-button">
+    
+
+        </div>
+    </form>
+</body>
+</html>
